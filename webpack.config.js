@@ -20,7 +20,7 @@ module.exports = {
     ],
     resolve: {
         alias: {
-            Utilities: path.resolve(__dirname, './src/components'),
+            components: path.resolve(__dirname, './src/components'),
         }
     },
     module: {
